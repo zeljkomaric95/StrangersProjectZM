@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blanchedalmond;
+  color: black;
+}
+
+.navbar {
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(94, 87, 87);
+  display: flex;
+  flex-direction: column;
+}
+
+.navlinks-container {
+  display: flex;
+  justify-content: center;
+}
+
+.navlinks {
+  text-decoration: none;
+  font-size: medium;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+  color: rgb(211, 47, 47);
+}
+
+h1 {
+  padding: 10px;
+  color: rgb(78, 9, 9);
+}
+
+h2 {
+  font-size: 45px;
+  color: rgb(211, 47, 47);
+  text-align: center;
+  margin: 30px;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 25px;
+  color: brown;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Posts {
+  display: flex;
+  flex-direction: auto;
+  justify-content: right;
+}
+
+.Login {
+  display: flex;
+  flex-direction: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.Register {
+  display: flex;
+  flex-direction: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.navlinks:hover {
+  background-color: rgb(83, 5, 12);
+  border-radius: 1px;
+}
+
+.posts {
+  background-color: bisque;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 2px 5px 5px 2px black;
+}
+
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-post-link {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(211, 47, 47);
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-post {
+  margin-top: 10px;
+  background-color: rgb(83, 5, 12);
+  border-color: black;
+  color: white;
+  font-size: 16px;
+}
+
+.edit-post {
+  margin-top: 10px;
+  border-color: rgb(83, 5, 12);
+  color: brown;
+  font-size: 16px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-account {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+form {
+  display: inline;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+input {
+  padding: 8px 4px;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  font-weight: 700;
+  background: white;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.create-account {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: 1px solid;
+  background-color: rgb(83, 5, 12);
+  color: white;
+}
+
+.add-posts-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.messages {
+  margin-top: 20px;
+}
+/* .img-style {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border:2px solid red;
+  border-radius:10px;
+} */
