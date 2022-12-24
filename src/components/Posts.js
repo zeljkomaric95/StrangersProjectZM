@@ -62,7 +62,7 @@ const Posts = ({ APIURL, token, setActivePost }) => {
       />
 
       <Link to="/new-post" className="new-post-link">
-        Add new Post
+        ADD NEW POST
       </Link>
 
       <div>

@@ -3,8 +3,8 @@ import React from "react";
 const Home = () => {
     return (
         <div className="home">
-            <h2>Welcome to Stranger's Things by ZM</h2>
-            <h3>FullStack Academy Project, December 2022</h3>
+            <h2>Welcome to Stranger's Things!</h2>
+            <h3>The project proudly made by Zeljko Maric</h3>
             <img/>
         </div>
     );
